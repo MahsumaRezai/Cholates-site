@@ -1,11 +1,12 @@
 import { Fragment } from "react";
 import React from 'react';
+import Home from "./Component/Home.js";
 
 
 function App(props) {
     return (
         <Fragment>
-            <h1>hello mahsuam</h1>
+            <Home />
         </Fragment>
     )
 }
