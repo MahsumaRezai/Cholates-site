@@ -1,0 +1,10 @@
+.about {
+    width: 80%;
+    background-image: url('./images/slider-bg1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin: auto;
+}
