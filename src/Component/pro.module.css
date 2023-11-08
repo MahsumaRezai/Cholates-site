@@ -1,13 +1,43 @@
-.pro {
-    width: 80%;
-    margin: auto;
-}
+
 .img {
     width: 500px;
 
 }
 .products {
     display: flex;
-    flex-direction: row;justify-content: center;
+    flex-direction: column;justify-content: center;
     align-items: center;
+    gap: 50px;
+    margin-top: 20px;
 }
+.images {
+    width:200px;
+
+
+}
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:35px;
+    color: brown
+
+}
+.pro {
+    width: 80%;
+    margin: auto;
+    border: 1px solid  brown;
+    display: flex;
+    flex-direction: column;justify-content: center;
+    align-items: center;
+    height: 400px;
+
+
+
+}
+
+
+.pro:hover {
+    box-shadow: 5px 5px 5px 5px gainsboro;
+    border: none
+}
+
+
