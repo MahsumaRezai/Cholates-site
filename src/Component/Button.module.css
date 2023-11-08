@@ -1,0 +1,25 @@
+.button {
+    background:  brown;
+    border: none;
+    padding: 20px 30px;
+    margin: 30px;
+    border-radius: 5px
+
+
+}
+
+.btn {
+    color:white;
+    font-size: 15px;
+}
+.content {
+    width: 78%;
+    margin: auto;
+    border: 1px solid  brown;
+    display: flex;
+    flex-direction: column;justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-top: 50px
+
+}
