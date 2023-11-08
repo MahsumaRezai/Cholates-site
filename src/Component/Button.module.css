@@ -19,7 +19,28 @@
     display: flex;
     flex-direction: column;justify-content: center;
     align-items: center;
-    height: 400px;
-    margin-top: 50px
+    margin-top: 50px;
+    gap: 5px;
+    padding: 20px 0px;
+    background-image: url('./images/slider-bg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 
+    
+}
+.title {
+    font-size: 35px;
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    font-size: 15px;
+    line-break: auto;
+    line-height: 1.625;
+    text-align: center;
+}
+.assest {
+    width: 500px
 }
