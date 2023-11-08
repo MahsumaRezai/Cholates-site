@@ -39,5 +39,21 @@
     box-shadow: 5px 5px 5px 5px gainsboro;
     border: none
 }
+.button {
+    background:  brown;
+    border: none;
+    padding: 20px 30px;
+    margin: 30px;
+    border-radius: 5px
+
+
+}
+
+.btn {
+    color:white;
+    font-size: 15px;
+ 
+    
+}
 
 

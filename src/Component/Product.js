@@ -13,14 +13,20 @@ const Product = (props) => {
 
                     <div className={classes.pro}>
                         <img src={img2} alt="" className={classes.images} />
+                        <button className={classes.button}>
+                            <span className={classes.btn}>Buy Now</span></button>
 
                     </div>
                     <div className={classes.pro}>
                         <img src={img3} alt="" className={classes.images} />
+                        <button className={classes.button}>
+                            <span className={classes.btn}>Buy Now</span></button>
 
                     </div>
                     <div className={classes.pro}>
                         <img src={img4} alt="" className={classes.images} />
+                        <button className={classes.button}>
+                            <span className={classes.btn}>Buy Now</span></button>
 
                     </div>
 
