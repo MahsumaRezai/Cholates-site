@@ -10,7 +10,8 @@ const Form = (props) => {
                     <img src={img} alt="" className={classes.img} />
                 </div>
 
-                <form action="" className={classes.form}>
+                <div className={classes.form}>
+                    <h1>Contact Us</h1>
                     <div>
                         <input type="text" placeholder="Full Name " />
                     </div>
@@ -23,12 +24,16 @@ const Form = (props) => {
                     <div>
                         <input type="text" class="message-box" placeholder="Message" />
                     </div>
-                    <div class="d-flex ">
-                        <button>
-                            SEND NOW
-                  </button>
+                    <div>
+                        <button className={classes.button}>
+                            <span className={classes.btn}>
+                                SEND NOW
+    
+                            </span>
+                        </button>
+                        
                     </div>
-                </form>
+                </div>
             </div>
 
 

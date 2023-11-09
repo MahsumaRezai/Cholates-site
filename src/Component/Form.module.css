@@ -25,3 +25,26 @@ input {
     color: #000000;
     border: 1px solid #a5a5a5
 }
+
+.button {
+    width: 200px;
+    height: 50px;
+    background: brown;
+    border: 1px solid brown;
+    margin-bottom: 10px
+}
+.btn {
+    transform: translateY(-4px);
+    transition: transform 500ms;
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button:hover .btn {
+    transform: translateY(-6px);
+    transition: transform 250ms;
+}
+.button:active .btn {
+    transform: translateY(-2px);
+    transition: transform 50ms;
+  }
