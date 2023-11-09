@@ -4,6 +4,7 @@ import Home from "./Component/Home.js";
 import About from "./Component/About.js";
 import Product from "./Component/Product.js";
 import Suggection from "./Component/Suggection.js";
+import Form from "./Component/Form.js";
 
 
 function App(props) {
@@ -13,6 +14,7 @@ function App(props) {
             <About />
             <Product />
             <Suggection />
+            <Form />
         </Fragment>
     )
 }
