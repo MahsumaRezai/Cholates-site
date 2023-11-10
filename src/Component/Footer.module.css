@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    background: #46200b;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding-top: 20px ;
+}
+.button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: white;
+    color: #46200b;
+    font-size: 15px;
+    font-weight: bold
+
+}

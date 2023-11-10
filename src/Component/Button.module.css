@@ -1,5 +1,5 @@
 .button {
-    background:  brown;
+    background:  #46200b;
     border: none;
     padding: 20px 30px;
     margin: 30px;
@@ -15,7 +15,7 @@
 .content {
     width: 78%;
     margin: auto;
-    border: 1px solid  brown;
+    border: 1px solid  #46200b;
     display: flex;
     flex-direction: column;justify-content: center;
     align-items: center;
@@ -30,13 +30,13 @@
 }
 .title {
     font-size: 35px;
-    color: brown;
+    color: #46200b;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 .text {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: brown;
+    color: #46200b;
     font-size: 15px;
     line-break: auto;
     line-height: 1.625;

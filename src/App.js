@@ -5,6 +5,7 @@ import About from "./Component/About.js";
 import Product from "./Component/Product.js";
 import Suggection from "./Component/Suggection.js";
 import Form from "./Component/Form.js";
+import Footer from "./Component/Footer.js";
 
 
 function App(props) {
@@ -15,6 +16,7 @@ function App(props) {
             <Product />
             <Suggection />
             <Form />
+            <Footer/>
         </Fragment>
     )
 }

@@ -1,10 +1,16 @@
-import { Fragment } from "react";
+import classes from './Footer.module.css'
 
-const Footer=(props)=>{
+const Footer = (props) => {
     return (
-        <Fragment>
+            <div className={classes.footer} >
+                        <input type="text" class="message-box" placeholder="Message" />
+                        <button className={classes.button}>
+                            send
+                        </button>
+                        </div>
+          
 
-        </Fragment>
+
     )
 }
 export default Footer;

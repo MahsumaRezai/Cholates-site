@@ -18,14 +18,14 @@
 .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:35px;
-    color: brown;
+    color: #46200b;
     padding: 20px;
 
 }
 .pro {
     width: 80%;
     margin: auto;
-    border: 1px solid  brown;
+    border: 1px solid  #46200b;
     display: flex;
     flex-direction: column;justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@
     border: none
 }
 .button {
-    background:  brown;
+    background:  #46200b;
     border: none;
     padding: 20px 30px;
     margin: 30px;
