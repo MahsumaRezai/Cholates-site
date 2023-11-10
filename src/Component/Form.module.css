@@ -6,8 +6,19 @@
     gap: 30px;
     padding-top: 50px
 }
+@media screen and (max-width:900px){
+    .content {
+        flex-direction: column
+    }
+}
 .img {
     width: 400px
+}
+@media screen and (max-width:900px){
+    .img {
+        width: 300px
+
+    }
 }
 .form {
     display: flex;

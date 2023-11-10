@@ -34,6 +34,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+@media screen and (max-width:900px){
+    .title {
+        font-size: inherit
+
+    }
+}
 .text {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #46200b;
@@ -44,4 +50,10 @@
 }
 .assest {
     width: 500px
+}
+@media screen and (max-width:900px){
+    .assest {
+        width: 300px
+
+    }
 }

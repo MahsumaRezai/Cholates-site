@@ -5,22 +5,39 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding-top: 50px;
+    padding:30px 20px
 }
-.images {
-    width:30%;
+@media screen and (max-width:1500px){
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
 }
+
 .img {
     width: 400px;
 }
-.title {
-    width:30%;
+@media screen and (max-width:900px){
+    .img {
+        width: 300px;
+    }
 }
+
+
 .titles {
     font-size: 80px;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #46200b;
+}
+@media screen and (max-width:900px){
+    .titles {
+        font-size: 40px;
+        text-align: center;
+
+    }
 }
 .text {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -30,4 +47,9 @@
     color: #46200b;
 
 
+}
+@media screen and (max-width:900px){
+    .text {
+        font-size: 13px;
+    }
 }

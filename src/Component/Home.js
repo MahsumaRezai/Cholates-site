@@ -15,7 +15,8 @@ const Home = (props) => {
                     </div>
                     <div className={classes.title}>
                         <h1 className={classes.titles}>Chocolate</h1>
-                        <p className={classes.text}>Chocolate is very amzing and all people around world like it <br></br> and this is very good for people</p>
+                        <p className={classes.text}>Chocolate is very amzing and all people around world like it
+                      and this is very good for people</p>
 
                     </div>
                 </div>
