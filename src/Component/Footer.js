@@ -9,8 +9,6 @@ const Footer = (props) => {
                         </button>
                         </div>
           
-
-
     )
 }
 export default Footer;
