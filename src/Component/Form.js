@@ -13,7 +13,6 @@ const Form = (props) => {
     const [emailcheck, setemailcheck] = useState(false);
     const [massagecheck, setmassagelcheck] = useState(false);
 
-
     const FormHandler = (event) => {
         event.preventDefault();
         if (name.trim().length === 0) {

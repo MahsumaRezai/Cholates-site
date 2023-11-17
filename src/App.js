@@ -7,7 +7,6 @@ import Suggection from "./Component/Suggection.js";
 import Form from "./Component/Form.js";
 import Footer from "./Component/Footer.js";
 
-
 function App(props) {
     return (
         <Fragment>
