@@ -59,3 +59,7 @@ input {
     transform: translateY(-2px);
     transition: transform 50ms;
   }
+  p {
+      color: red;
+      font-size: 18px;
+  }

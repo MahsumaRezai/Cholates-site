@@ -15,7 +15,35 @@ const Form = (props) => {
 
 
     const FormHandler = (event) => {
-        event.preventDefault('');
+        event.preventDefault();
+        if (name.trim().length === 0) {
+            setnamecheck(true)
+        }
+        else if (name.trim().length !== 0) {
+            alert("Thank you for your submation")
+
+        }
+        if (phone.trim().length === 0) {
+            setphonecheck(true)
+        }
+        else if (phone.trim().length !== 0) {
+            alert("Thank you for your submation")
+
+        }
+        if (email.trim().length === 0) {
+            setemailcheck(true)
+        }
+        else if (email.trim().length !== 0) {
+            alert("Thank you for your submation")
+
+        }
+        if (massage.trim().length === 0) {
+            setmassagelcheck(true)
+        }
+        else if (massage.trim().length !== 0) {
+            alert("Thank you for your submation")
+
+        }
     }
     const Namehandler = (event) => {
         setName(event.target.value);
@@ -29,31 +57,7 @@ const Form = (props) => {
     const Massagehandler = (event) => {
         setMassage(event.target.value);
     }
-    const checknameHandler = () => {
-        setnamecheck();
-        if (name !== ' ') {
-            namecheck(true)
-        }
-    }
-    const checkemailHandler = () => {
-        setemailcheck()
-        if (email !== ' ') {
-            emailcheck(true)
-        }
-    }
-    const checkphoneHandler = () => {
-        setphonecheck();
-        if (phone !== ' ') {
-            phonecheck(true)
-        }
-    }
-    const checkmassageHandler = () => {
-        setmassagelcheck();
-        if (massage !== ' ') {
-            massagecheck(true)
 
-        }
-    }
 
 
 
@@ -69,19 +73,19 @@ const Form = (props) => {
                     <h1>Contact Us</h1>
                     <div>
                         <input type="text" placeholder="Full Name " onChange={Namehandler} />
-                        {checknameHandler && <p>Plases enter your name</p>}
+                        {namecheck && <p>Plases enter your name</p>}
                     </div>
                     <div>
                         <input type="text" placeholder="Phone number" onChange={Phonehandler} />
-                        {checkphoneHandler && <p>Plases enter your phone</p>}
+                        {phonecheck && <p>Plases enter your phone</p>}
                     </div>
                     <div>
                         <input type="email" placeholder="Email" onChange={Emailhandler} />
-                        {checkemailHandler && <p>Plases enter your email</p>}
+                        {emailcheck && <p>Plases enter your email</p>}
                     </div>
                     <div>
                         <input type="text" class="message-box" placeholder="Message" onChange={Massagehandler} />
-                        {checkmassageHandler && <p>Plases enter your massage</p>}
+                        {massagecheck && <p>Plases enter your massage</p>}
                     </div>
                     <div>
                         <button className={classes.button}>
